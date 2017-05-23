@@ -1,0 +1,30 @@
+{
+  "name": "subtlephp/exfuntions",
+  "description": "Functions PHP should have",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Frost Wong",
+      "email": "frostwong@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.1"
+  },
+  "autoload": {
+    "files": [
+      "src/functions_include.php"
+    ],
+    "psr-4": {
+      "ExtendedFunctions\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ExtendedFunctions\\Tests\\": "tests/"
+    }
+  }
+}
